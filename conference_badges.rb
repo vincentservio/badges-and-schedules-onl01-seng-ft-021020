@@ -21,7 +21,7 @@ array
 end
 
  def printer (attendees)
-  puts name = line.chomp
+  puts name = get.chomp
 
 puts batch_badge_creator(name)
 puts assign_rooms(name)
