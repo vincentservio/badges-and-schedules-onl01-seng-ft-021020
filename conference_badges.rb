@@ -23,6 +23,6 @@ end
  def printer(name)
 #binding.pry
 puts batch_badge_creator(name).each{|i| i}
- assign_rooms(name).each{|i| i}
+ puts assign_rooms(name).each{|i| i}
  end
  
