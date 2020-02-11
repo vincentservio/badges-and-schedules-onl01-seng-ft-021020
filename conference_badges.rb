@@ -24,6 +24,6 @@ end
 #binding.pry
 batch_badge_creator(attendees).map{|i| puts i}
 
-assign_rooms(attendees).mao{|i| puts i}
+assign_rooms(attendees).map{|i| puts i}
  
  end
