@@ -21,7 +21,7 @@ array
 end
 
  def printer (name)
-binding.pry
+#binding.pry
 batch_badge_creator(name).each{|i| i}
 puts assign_rooms(name).each{|i| i}
  end
