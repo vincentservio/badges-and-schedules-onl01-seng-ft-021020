@@ -20,7 +20,7 @@ end
 array
 end
 
- def printer(name)
+ def printer(attendees)
 #binding.pry
 assign_rooms(name).each{|i| puts i}
  end
