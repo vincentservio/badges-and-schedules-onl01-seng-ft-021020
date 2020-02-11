@@ -22,8 +22,8 @@ end
 
  def printer(attendees)
 #binding.pry
-batch_badge_creator(attendees).each{|i| puts i}
+batch_badge_creator(attendees).map{|i| puts i}
 
-assign_rooms(name).each{|i| puts i}
+assign_rooms(attendees).mao{|i| puts i}
  
  end
