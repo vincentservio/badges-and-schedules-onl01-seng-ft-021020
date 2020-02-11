@@ -20,9 +20,7 @@ end
 array
 end
 
- def printer (attendees)
- 
-
+ def printer (name)
 puts batch_badge_creator(name)
 puts assign_rooms(name)
  end
