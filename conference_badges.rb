@@ -20,7 +20,7 @@ end
 array
 end
 
- def printer (name)
+ def printer(name)
 #binding.pry
 batch_badge_creator(name).each{|i| i}
  assign_rooms(name).each{|i| i}
